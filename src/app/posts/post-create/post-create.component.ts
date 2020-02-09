@@ -40,6 +40,7 @@ export class PostCreateComponent implements OnInit {
     });
   }
 
+  
   onSavePost(form: NgForm) {
     if (form.invalid) {
       return;
